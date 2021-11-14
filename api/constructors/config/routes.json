@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/constructors",
+      "handler": "constructors.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/constructors/count",
+      "handler": "constructors.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/constructors/:id",
+      "handler": "constructors.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/constructors",
+      "handler": "constructors.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/constructors/:id",
+      "handler": "constructors.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/constructors/:id",
+      "handler": "constructors.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
